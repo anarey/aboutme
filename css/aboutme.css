@@ -16,23 +16,23 @@ p
 	font-size:12px;
 }
 
-.menuh ul li
+.navigation ul li
 {
 	display: inline;
 	margin:8px; /* Separar los botones */
 }
 
-.menuh ul li:hover
+.navigation ul li:hover
 {
 	background-color: #0B610B;
 }
 
-.menuh a:hover
+.navigation a:hover
 {
 	color:#FFFFFF; /* Como son enlaces, hay que añadir a a:hover para modificar el color*/
 }
 
-.menuh li 
+.navigation li 
 {
         /* Linea para delimitar la botonera */
         border-bottom-width: 1px;
