@@ -1,7 +1,39 @@
 body{
+	width:900px;
 	background-color:#A9F5A9;
 	font-family: sans-serif;
 }
+
+header div img {
+width:800px;
+display: block;   margin-left: auto;   margin-right: auto;
+}
+
+.sobremif {
+	float:right;
+	margin: 4px;
+}
+
+
+nav{
+width:800px;
+text-align:center;
+}
+
+article{
+	width:800px;
+}
+
+footer{
+width:800px;
+	text-align:center;
+}
+
+.sobremif{
+float:right;
+
+}
+
 
 h1{
 	color:#0B610B;
@@ -16,29 +48,30 @@ p
 	font-size:12px;
 }
 
-.navigation ul li
+nav ul li
 {
 	display: inline;
 	margin:8px; /* Separar los botones */
 }
 
-.navigation ul li:hover
+nav ul li:hover
 {
 	background-color: #0B610B;
 }
 
-.navigation a:hover
+nav a:hover
 {
 	color:#FFFFFF; /* Como son enlaces, hay que añadir a a:hover para modificar el color*/
 }
 
-.navigation li 
+nav li 
 {
         /* Linea para delimitar la botonera */
         border-bottom-width: 1px;
         border-bottom-style: solid;
         border-bottom-color: #0B610B;
 }
+
 
 /* Modificaciones en los enlaces */
 a:link {
