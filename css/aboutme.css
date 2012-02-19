@@ -1,0 +1,60 @@
+body{
+	background-color:#A9F5A9;
+	font-family: sans-serif;
+}
+
+h1{
+	color:#0B610B;
+	text-align:left;
+}
+
+h2{
+	text-aling:left
+}
+p
+{
+	font-size:12px;
+}
+
+.menuh ul li
+{
+	display: inline;
+	margin:8px; /* Separar los botones */
+}
+
+.menuh ul li:hover
+{
+	background-color: #0B610B;
+}
+
+.menuh a:hover
+{
+	color:#FFFFFF; /* Como son enlaces, hay que añadir a a:hover para modificar el color*/
+}
+
+.menuh li 
+{
+        /* Linea para delimitar la botonera */
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #0B610B;
+}
+
+/* Modificaciones en los enlaces */
+a:link {
+	color:#0B610B;
+	text-decoration:none;
+}      /* unvisited link */
+a:visited {
+	color:#0B610B;
+        text-decoration:none;
+}  /* visited link */
+a:hover {
+        color:#0B610B;
+	text-decoration:underline;
+	font-style:oblique
+}  /* mouse over link */
+a:active {
+	color:#0B610B;
+	text-decoration:underline;
+}  /* selected link */ 
